@@ -1,0 +1,34 @@
+[
+    {
+        "id": "64364355d4cb67260856f3f0",
+        "image": "https://i.ibb.co/KNzrmy1/context.png",
+        "question": "When should you use context API?",
+        "answer": "The Context API is a feature of React, a popular JavaScript library for building user interfaces, that allows data to be shared across components of a React application without props down through multiple layers of components. It is typically used in situations where multiple components need access to the same data or functionality, such as managing state or providing global configuration.",
+        "topic": "context API",
+        "readTime": "5"
+    },
+    {
+        "id": "643643550dd00940b1fa0f51",
+        "image": "https://i.ibb.co/18BWM9B/custom-hook.png",
+        "question": "What is a custom hook?",
+        "answer": "A custom hook is a function that uses React's built-in hooks (such as useState, useEffect, useContext, etc.) or other custom hooks and follows a specific naming convention starting with the word 'use'. Custom hooks are usually defined in their own module and can be imported and used in any React component just like any other function.",
+        "topic": "custom hook",
+        "readTime": "12"
+    },
+    {
+        "id": "6436435523c6141f290eb412",
+        "image": "https://i.ibb.co/Q6wXVs5/use-ref.png",
+        "question": "What is useRef?",
+        "answer": "useRef is a hook in React that provides a way to create and access mutable references to elements or values in a functional component. It provides a mutable Ref object that can be used to maintain a value across renders and not trigger a re-render if its value changes.",
+        "topic": "useRef",
+        "readTime": "7"
+    },
+    {
+        "id": "643643552f1cfb8e8da43e82",
+        "image": "https://i.ibb.co/r7wtP58/usememo.jpg",
+        "question": "What is useMemo?",
+        "answer": "useMemo is a hook in React that allows you to memoize the result of a calculation and recalculate it only if the dependencies change. This helps optimize the performance of your React components by avoiding unnecessary calculations and re-renders.",
+        "topic": "useMemo",
+        "readTime": "10"
+    }
+]
