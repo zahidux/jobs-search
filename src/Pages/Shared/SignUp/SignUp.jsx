@@ -1,7 +1,7 @@
 import React, { useContext, useRef, useState } from "react";
 import signUp from "../../../assets/images/login.jpg";
 import { Link } from "react-router-dom";
-import { getAuth } from "firebase/auth";
+import { getAuth, sendEmailVerification } from "firebase/auth";
 import app from "../../../Firebase/Firebase.confige";
 import { AuthContext } from "../../../Provider/AuthProvider";
 
@@ -49,30 +49,16 @@ const SignUp = () => {
       setError("Your password didn't match");
       return;
     }
-    //create user with firebase
-    // createUserWithEmailAndPassword(auth, email, password)
-    //   .then((result) => {
-    //     const user = result.user;
-    //     console.log(user);
-    //     setError("");
-    //     setSuccess("User Added Successfuly");
-    //     sendEmailVerific(result.user);
-    //     updateUserData(result.user, name);
-    //   })
-    //   .catch((error) => {
-    //     setError(error.message);
-    //     console.log(error);
-    //   });
   };
 
-  //user email varification
+  // user email varification
 
-  //   const sendEmailVerific = (user) => {
-  //     sendEmailVerification(user).then((result) => {
-  //       console.log(result);
-  //       alert("Please verify is your email");
-  //     });
-  //   };
+  const sendEmailVerific = (user) => {
+    sendEmailVerification(user).then((result) => {
+      console.log(result);
+      alert("Please verify is your email");
+    });
+  };
 
   //   //update user name and picture
 

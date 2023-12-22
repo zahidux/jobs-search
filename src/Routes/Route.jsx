@@ -9,7 +9,6 @@ import Login from "../Pages/Shared/Login/Login";
 import SignUp from "../Pages/Shared/SignUp/SignUp";
 import ApplyNow from "../Pages/Home/Features/ApplyNow";
 import PrivetRoute from "./PrivetRoute";
-import Server from "../Pages/Home/Category/server";
 
 const router = createBrowserRouter([
   {
@@ -47,10 +46,6 @@ const router = createBrowserRouter([
       {
         path: "singUp",
         element: <SignUp />,
-      },
-      {
-        path: "server",
-        element: <Server />,
       },
       {
         path: "applyNow",

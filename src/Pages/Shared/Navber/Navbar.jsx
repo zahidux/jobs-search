@@ -14,7 +14,6 @@ const Navbar = () => {
         console.log(error);
       });
   };
-  const navbarItems = {};
 
   return (
     <nav className=" container md:flex justify-between items-center my-16 ">
